@@ -1,0 +1,48 @@
+RUNCOACH PRO ALGEMEEN - INSTALLATIEHANDLEIDING
+
+INHOUD
+- index.html: de app
+- manifest.json: installatiegegevens voor de web-app
+- service-worker.js: offline cache
+- running-hero.webp: geoptimaliseerde bannerafbeelding
+- icon.png: voeg het bestaande pictogram toe in dezelfde map
+
+INSTALLEREN
+1. Pak het zipbestand uit.
+2. Plaats index.html, manifest.json, service-worker.js, running-hero.webp en icon.png in dezelfde map op een HTTPS-webserver.
+3. Open de HTTPS-link in Google Chrome op de Android-telefoon.
+4. Geef toestemming voor locatie, Bluetooth en meldingen/trillen wanneer Chrome daarom vraagt.
+5. Kies in Chrome: menu met drie puntjes > App installeren of Toevoegen aan startscherm.
+6. Open RunCoach vanaf het startscherm.
+
+PROFIELEN
+- Run Johnny Run is het standaardprofiel.
+- Open Profielen beheren om een profiel te selecteren, toe te voegen, te wijzigen of te verwijderen.
+- Per profiel zijn naam, leeftijd, zonenaam en vijf onder- en bovengrenzen instelbaar.
+- Profielen worden lokaal op het gebruikte toestel bewaard.
+
+GALAXY WATCH 8 EN HARTSLAG
+1. Stel op de Galaxy Watch continue hartslagmeting in.
+2. Start op de Watch een Wear OS-app die de hartslag als standaard BLE Heart Rate Service uitzendt.
+3. Tik in RunCoach op Koppel Galaxy Watch 8 / BLE-zender.
+4. Kies de actieve BLE-hartslagzender.
+Een gewone web-app kan Samsung Health-gegevens niet rechtstreeks uitlezen. De BLE-uitzendfunctie is daarom nodig.
+
+ENERGIEGEBRUIK
+- Energiezuinige GPS-modus staat standaard aan.
+- Deze modus vraagt geen maximale GPS-nauwkeurigheid en accepteert een recente positie tot 10 seconden oud.
+- Schakel de modus uit wanneer nauwkeuriger tempo en afstand belangrijker zijn dan batterijduur.
+- Bluetooth-meldingen worden alleen verwerkt wanneer nieuwe hartslagdata binnenkomen.
+- GPS wordt bij Stop en sla op direct beëindigd.
+- Sluit andere sport- of navigatie-apps om dubbel GPS-gebruik te voorkomen.
+- Voor betrouwbare training moet RunCoach tijdens de training actief blijven.
+
+TEST VOOR GEBRUIK
+1. Maak een kort testprofiel of gebruik Run Johnny Run.
+2. Koppel de BLE-hartslag.
+3. Start buiten een testtraining van ongeveer 500 meter.
+4. Controleer hartslag, tempo, gesproken waarschuwingen en opslaan in Geschiedenis.
+
+
+VORMGEVING
+De nieuwe banner is lokaal in de app opgeslagen. Daardoor blijft de afbeelding offline zichtbaar en hoeft deze niet tijdens iedere training opnieuw van internet te worden geladen.

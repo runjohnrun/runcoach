@@ -1,0 +1,17 @@
+{
+  "short_name": "RunCoach",
+  "name": "RunCoach Pro - Volledige Hardlooptraining",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "display": "standalone",
+  "orientation": "portrait"
+}
